@@ -35,17 +35,17 @@
 		});
 
 	// Dropdowns.
-		$('#nav > ul').dropotron({
-			alignment: 'right',
-			hideDelay: 350
-		});
+		// $('#nav > ul').dropotron({
+		// 	alignment: 'right',
+		// 	hideDelay: 350
+		// });
 
 	// Nav.
 
 		// Title Bar.
 			$(
 				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
+					// '<a href="#navPanel" class="toggle"></a>' +
 					'<span class="title">' + $('#logo').html() + '</span>' +
 				'</div>'
 			)
